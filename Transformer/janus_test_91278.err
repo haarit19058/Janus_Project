@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/home/AnirbanMondal_grp/23110077/Transformer/train.py", line 2, in <module>
+    from transformers import AutoTokenizer, AutoModelForSequenceClassification, AdamW
+ModuleNotFoundError: No module named 'transformers'
+Traceback (most recent call last):
+  File "/home/AnirbanMondal_grp/23110077/Transformer/new.py", line 1, in <module>
+    import pandas as pd
+ModuleNotFoundError: No module named 'pandas'

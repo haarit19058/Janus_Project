@@ -1,0 +1,2110 @@
+                                                  SMILES  ...     score
+0      C1=CC=C(B2C3=CC=CC=C3N(C3=CC=CC=C3)C3=CC=CC=C2...  ...  1.378686
+1      C1=CC=C(N2C3=CC=CC=C3B3C4=CC=CC=C4N(C4=CC=CC=C...  ...  0.579242
+2      C1=CCC(B2C3=CC=CC=C3N(C3=CC=CC=C3)C3=CC=CC=C23...  ...  2.227850
+3      O=C1C=CC=C(B2C3=CC=CC=C3N(C3=CC=CC=C3)C3=CC=CC...  ...  0.895863
+4      N#CC1=CC=CC(N2C3=CC=CC=C3B(C3=CC=CC=C3)C3=CC=C...  ...  1.245388
+...                                                  ...  ...       ...
+39660  N#CC1=CC(=O)C(C2=NN=C(C3=CC=C(N4C5=CC=CC=C5OC5...  ...  0.188439
+39661  CC1=CC2=C(C(C)=N1)N(C1=CC=C(B3C4=CC=CC=C4N4N=N...  ...  0.012777
+39662  CC1=CC(C)=C2C(=C1)C1=C(F)C(C)=NC(C)=C1N2C1=CC=...  ...  0.013569
+39663  CC1=CC2=C(C(C)=C1F)N(C1=CC=C(B(C3=CC=CC=C3)C3=...  ...  0.057428
+39664  COC1=CC=CN=C1B1C2=CN=CC=C2C2=CC(N3C4=C(C)C=C(C...  ...  0.081257
+
+[39665 rows x 5 columns]
+(39665, 5)
+    Unique and valid fragments generated: 10259
+Starting JANUS...
+    Unique and valid fragments generated: 10259
+On generation 0/100
+    (Explr) Top Fitness: 66.66972351074219
+    (Explr) Top Smile: Bc1c2ccc(BC=CC=C)c1C=C2Bc1c2cc3cc1Nc1ccc(c(c1C)Bc1cccc(CC=CC)c1C=CC=CN2)Sc1ccccc1-3
+    (Local) Top Fitness: 67.00203704833984
+    (Local) Top Smile: BOc1c2ccc(BC=CC)c1C=C2Bc1c2cc3cc1Nc1ccc(c(c1C)Bc1cccc(CC=CC)c1C=CC=CN2)Sc1ccccc1-3
+On generation 1/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6895838975906372
+                Validation loss: 0.6895838975906372
+        Epoch:1000 Loss:0.5210742354393005
+                Validation loss: 0.5210742354393005
+        Early stopping at epoch: 1076       loss: 0.5153274536132812
+    Obtaining Predictions
+Number of batches:  5
+        Predicting Batch: 0/5
+        Predicting Batch: 1/5
+        Predicting Batch: 2/5
+        Predicting Batch: 3/5
+        Predicting Batch: 4/5
+    (Explr) Top Fitness: 67.00624084472656
+    (Explr) Top Smile: Bc1cc(-c2ccccc2-c2cc(C#N)ccc2C#N)ccc1-n1c2c(C)cc(C)cc2c2cc(C)cc(C)c21
+    (Local) Top Fitness: 65.8658676147461
+    (Local) Top Smile: Bc1cc(-c2ccccc2-c2cc(C#N)ccc2C#N)ccc1-n1c2c(C)cc(C)cc2c2cc(P)cc(C)c21
+On generation 2/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5888381600379944
+                Validation loss: 0.5888381600379944
+        Epoch:1000 Loss:0.5085769295692444
+                Validation loss: 0.5085769295692444
+        Epoch:2000 Loss:0.4987833499908447
+                Validation loss: 0.4987833499908447
+        Epoch:3000 Loss:0.4825431704521179
+                Validation loss: 0.4825431704521179
+        Early stopping at epoch: 2749       loss: 0.470753937959671
+    Obtaining Predictions
+Number of batches:  5
+        Predicting Batch: 0/5
+        Predicting Batch: 1/5
+        Predicting Batch: 2/5
+        Predicting Batch: 3/5
+        Predicting Batch: 4/5
+    (Explr) Top Fitness: 67.44881439208984
+    (Explr) Top Smile: CBC(C)=CC12C=CC=CC(C=CN=CC=CC(C#N)CC3C=CC=CC=C3C=C=CC)N3C4CCC(=CC4=CC1)N3C2
+    (Local) Top Fitness: 68.31169891357422
+    (Local) Top Smile: CC=C=Cc1c(S)cccc1C#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCC)CC=C3C=C4CCC3N1N4C2
+On generation 3/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.7122605443000793
+                Validation loss: 0.7122605443000793
+        Early stopping at epoch: 76       loss: 0.557150661945343
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.31169891357422
+    (Explr) Top Smile: CC=C=Cc1c(S)cccc1C#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.36500549316406
+    (Local) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C(C)BCC)CC=C3C=C4CCC3N1N4C2
+On generation 4/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.8578575253486633
+                Validation loss: 0.8578575253486633
+        Epoch:1000 Loss:0.4328194260597229
+                Validation loss: 0.4328194260597229
+        Epoch:2000 Loss:0.4194812476634979
+                Validation loss: 0.4194812476634979
+        Early stopping at epoch: 1843       loss: 0.41294756531715393
+    Obtaining Predictions
+Number of batches:  5
+        Predicting Batch: 0/5
+        Predicting Batch: 1/5
+        Predicting Batch: 2/5
+        Predicting Batch: 3/5
+        Predicting Batch: 4/5
+    (Explr) Top Fitness: 68.36500549316406
+    (Explr) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.39958953857422
+    (Local) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2
+On generation 5/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6274862289428711
+                Validation loss: 0.6274862289428711
+        Epoch:1000 Loss:0.43836477398872375
+                Validation loss: 0.43836477398872375
+        Early stopping at epoch: 1161       loss: 0.43306827545166016
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.39958953857422
+    (Explr) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.1426010131836
+    (Local) Top Smile: C=CC=CC(C=CC)CC#CC=CCC[SH]=CCCN=CC=NC=CC1C=CC=CC(NNc2ccccc2C(C)BCC)CN2CCCC(CC=C)N12
+On generation 6/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.7210490107536316
+                Validation loss: 0.7210490107536316
+        Epoch:1000 Loss:0.44309622049331665
+                Validation loss: 0.44309622049331665
+        Early stopping at epoch: 1320       loss: 0.43808966875076294
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.39958953857422
+    (Explr) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.18942260742188
+    (Local) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=C1C=CC=CC(C)(Nc2ccccc2C(C)BCC)CC=C2C=C3CCC2N1N3
+On generation 7/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.8461511731147766
+                Validation loss: 0.8461511731147766
+        Epoch:1000 Loss:0.4612915813922882
+                Validation loss: 0.4612915813922882
+        Epoch:2000 Loss:0.45559102296829224
+                Validation loss: 0.45559102296829224
+        Early stopping at epoch: 2059       loss: 0.45196348428726196
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.39958953857422
+    (Explr) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 67.91725158691406
+    (Local) Top Smile: CC1BC=CC=CC=CC(C=CN=CC=NCCC=CCBC=CC=CN=C=CCl)C23C=CCCC=CC=C=CC(CC2C3)CN2CC1C=CC2C
+On generation 8/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.8051252365112305
+                Validation loss: 0.8051252365112305
+        Epoch:1000 Loss:0.46725332736968994
+                Validation loss: 0.46725332736968994
+        Early stopping at epoch: 1384       loss: 0.46304085850715637
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.39958953857422
+    (Explr) Top Smile: C=CC=CC(S)(C=CCC)CC#CC=CC=CCCN=CC=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.60419464111328
+    (Local) Top Smile: C=CCC(C)(CC#CC=CC=CCCN=C=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2)CCSC
+On generation 9/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.7364538311958313
+                Validation loss: 0.7364538311958313
+        Epoch:1000 Loss:0.46750107407569885
+                Validation loss: 0.46750107407569885
+        Early stopping at epoch: 505       loss: 0.4661984145641327
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.60419464111328
+    (Explr) Top Smile: C=CCC(C)(CC#CC=CC=CCCN=C=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2)CCSC
+    (Local) Top Fitness: 68.4012680053711
+    (Local) Top Smile: C=CCC(C)(CC#CC=CC=CCN=C=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2)CCSC
+On generation 10/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.661097526550293
+                Validation loss: 0.6601083278656006
+        Epoch:1000 Loss:0.5108526945114136
+                Validation loss: 0.4843848943710327
+        Early stopping at epoch: 1323       loss: 0.47858375310897827
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.60419464111328
+    (Explr) Top Smile: C=CCC(C)(CC#CC=CC=CCCN=C=NC=CC1C=CC=CC2(Nc3ccccc3C(C)BCC)CC=C3C=C4CCC3N1N4C2)CCSC
+    (Local) Top Fitness: 68.7735595703125
+    (Local) Top Smile: C=CCC(C)(CC#CC=CC=CCCN=C=NC=CC1C=CC=CC2(N3CC=CC=C3C(C)BCC)CC=C3C=C4CCC3N1N4C2)CCSC
+On generation 11/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5882760882377625
+                Validation loss: 0.58941251039505
+        Epoch:1000 Loss:0.48278698325157166
+                Validation loss: 0.47088342905044556
+        Early stopping at epoch: 954       loss: 0.470015287399292
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.83563232421875
+    (Explr) Top Smile: COC1C=CC=CN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=NC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CCC3N1N4C2
+    (Local) Top Fitness: 68.29949951171875
+    (Local) Top Smile: COC1C=CC=CN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=NC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CC3N1N4C2
+On generation 12/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6209654808044434
+                Validation loss: 0.6224976181983948
+        Epoch:1000 Loss:0.479369193315506
+                Validation loss: 0.47491973638534546
+        Epoch:2000 Loss:0.4783371686935425
+                Validation loss: 0.47185254096984863
+        Early stopping at epoch: 1779       loss: 0.46872082352638245
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.99515533447266
+    (Explr) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+    (Local) Top Fitness: 68.27637481689453
+    (Local) Top Smile: B=CC=CC(C)NCC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+On generation 13/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6858202815055847
+                Validation loss: 0.6860659718513489
+        Epoch:1000 Loss:0.48156437277793884
+                Validation loss: 0.47957807779312134
+        Early stopping at epoch: 1309       loss: 0.47835826873779297
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.99515533447266
+    (Explr) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+    (Local) Top Fitness: 68.03087615966797
+    (Local) Top Smile: COC1C=CC=BN1CC=C=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+On generation 14/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6477782726287842
+                Validation loss: 0.6501151323318481
+        Epoch:1000 Loss:0.454118937253952
+                Validation loss: 0.47037845849990845
+        Early stopping at epoch: 1176       loss: 0.46998539566993713
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.99515533447266
+    (Explr) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+    (Local) Top Fitness: 67.73023986816406
+    (Local) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CC=C=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+On generation 15/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5122557282447815
+                Validation loss: 0.5212574005126953
+        Epoch:1000 Loss:0.4626772105693817
+                Validation loss: 0.4707382917404175
+        Early stopping at epoch: 1274       loss: 0.46924158930778503
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 68.99515533447266
+    (Explr) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+    (Local) Top Fitness: 68.11000061035156
+    (Local) Top Smile: COC1C=CC=BN1C=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3(C2)N1N4
+On generation 16/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5486065149307251
+                Validation loss: 0.5449376106262207
+        Epoch:1000 Loss:0.4988902509212494
+                Validation loss: 0.48671889305114746
+        Early stopping at epoch: 507       loss: 0.4850969910621643
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 68.99515533447266
+    (Explr) Top Smile: COC1C=CC=BN1CC=CC=CC=C=CC=CC=CCCN=CC=NC=CC1C=CC=CC2(C=C(C)BCCS)CC=C3C=C4CNC3N1N4C2
+    (Local) Top Fitness: 69.30159759521484
+    (Local) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+On generation 17/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6110934615135193
+                Validation loss: 0.6077885031700134
+        Epoch:1000 Loss:0.5042009949684143
+                Validation loss: 0.4840490520000458
+        Epoch:2000 Loss:0.5016978979110718
+                Validation loss: 0.48159295320510864
+        Early stopping at epoch: 1854       loss: 0.4802427589893341
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 69.30159759521484
+    (Explr) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+    (Local) Top Fitness: 69.27023315429688
+    (Local) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=C=CC=CC=CCN1B=C=NCC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+On generation 18/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.7568240761756897
+                Validation loss: 0.7598205804824829
+        Epoch:1000 Loss:0.5160000920295715
+                Validation loss: 0.49079224467277527
+        Epoch:2000 Loss:0.5149979591369629
+                Validation loss: 0.4901156425476074
+        Early stopping at epoch: 1932       loss: 0.48891371488571167
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 69.30159759521484
+    (Explr) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+    (Local) Top Fitness: 68.7644271850586
+    (Local) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=CC=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BN)C=CCCSC
+On generation 19/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5600681900978088
+                Validation loss: 0.5606293082237244
+        Epoch:1000 Loss:0.4887906610965729
+                Validation loss: 0.4830090403556824
+        Epoch:2000 Loss:0.48285219073295593
+                Validation loss: 0.4798242449760437
+        Early stopping at epoch: 2014       loss: 0.47040873765945435
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 69.30159759521484
+    (Explr) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCC=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+    (Local) Top Fitness: 69.39524841308594
+    (Local) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCN=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+On generation 20/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5988753437995911
+                Validation loss: 0.5983588099479675
+        Epoch:1000 Loss:0.507000744342804
+                Validation loss: 0.48728013038635254
+        Early stopping at epoch: 623       loss: 0.4829885959625244
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 69.39524841308594
+    (Explr) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCN=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCc2nc1ccc2BNC)C=CCCSC
+    (Local) Top Fitness: 68.47882843017578
+    (Local) Top Smile: C=CC(C)(C=CC=CC(N=CC=NCCN=CC=CC=C=CC=CC=CCN1B=CC=CC1OC)NNC1=CCn2cc1cc2BNC)C=CCCSC
+On generation 21/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6822083592414856
+                Validation loss: 0.6813017129898071
+        Early stopping at epoch: 321       loss: 0.49168646335601807
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 69.9000473022461
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=CC=NC=NC2C=CC=CC3(C=C4BCCSC4)CC=C4C=C5CPC4N2N5C3)N1
+    (Local) Top Fitness: 69.02513122558594
+    (Local) Top Smile: COC1=CC=CC(C=CC=C=C=CC=CC=CCCN=CC=NC=NC2C=CC=CC3(C=C4BCCSC4)CC=C4C=C5CPC4N2N5C3)N1
+On generation 22/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6454994678497314
+                Validation loss: 0.6408156752586365
+        Epoch:1000 Loss:0.5229116082191467
+                Validation loss: 0.48404407501220703
+        Early stopping at epoch: 1431       loss: 0.4828219413757324
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 69.9000473022461
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=CC=NC=NC2C=CC=CC3(C=C4BCCSC4)CC=C4C=C5CPC4N2N5C3)N1
+    (Local) Top Fitness: 69.5737075805664
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=CC=NC=NC2C=CC=CC3(C=C4BCCSC4)CP=C4C=C5CPC4N2N5C3)N1
+On generation 23/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6396660804748535
+                Validation loss: 0.6379381418228149
+        Epoch:1000 Loss:0.493975967168808
+                Validation loss: 0.48374271392822266
+        Epoch:2000 Loss:0.4987957179546356
+                Validation loss: 0.48320791125297546
+        Early stopping at epoch: 1747       loss: 0.481901615858078
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.71821594238281
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=CC=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 70.97876739501953
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+On generation 24/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.8317914605140686
+                Validation loss: 0.832743763923645
+        Epoch:1000 Loss:0.486566424369812
+                Validation loss: 0.4811989665031433
+        Epoch:2000 Loss:0.4872291088104248
+                Validation loss: 0.47883009910583496
+        Early stopping at epoch: 1752       loss: 0.47763562202453613
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.1873779296875
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=C=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+On generation 25/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5627528429031372
+                Validation loss: 0.5577026605606079
+        Epoch:1000 Loss:0.4887935221195221
+                Validation loss: 0.47781357169151306
+        Epoch:2000 Loss:0.49541106820106506
+                Validation loss: 0.4767936170101166
+        Early stopping at epoch: 1828       loss: 0.47451600432395935
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.1023941040039
+    (Local) Top Smile: C=CCc1ccccc1OCC=CC=CC=C=CC=CC=CCCN=C=NC=NC1C=CC=CC2(C=C3BCCCC3)CC=C3C=C4C1PC3NN4C2
+On generation 26/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.635778546333313
+                Validation loss: 0.6347747445106506
+        Epoch:1000 Loss:0.4877542555332184
+                Validation loss: 0.48048990964889526
+        Epoch:2000 Loss:0.4846518337726593
+                Validation loss: 0.4776948392391205
+        Early stopping at epoch: 1687       loss: 0.47658663988113403
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.2936782836914
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CCCN=C=NC=NCC=CC=C2CC=C3C=C4CPC3N(C)N4C2C2=CBCCC2C)N1
+On generation 27/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6962575912475586
+                Validation loss: 0.6962890028953552
+        Epoch:1000 Loss:0.48057910799980164
+                Validation loss: 0.47987374663352966
+        Epoch:2000 Loss:0.47951313853263855
+                Validation loss: 0.47834110260009766
+        Early stopping at epoch: 2107       loss: 0.47723937034606934
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.78360748291016
+    (Local) Top Smile: C=CC=CCC1=CC=C(C2PC3NN4CC(C=C5BCCCC5)CC=C3C=C24)NN=C=NCCC=CC=CC=C=CC=CC=CCNC(CC)C=CC1
+On generation 28/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5913470387458801
+                Validation loss: 0.5891031622886658
+        Epoch:1000 Loss:0.491527259349823
+                Validation loss: 0.482414573431015
+        Epoch:2000 Loss:0.49339184165000916
+                Validation loss: 0.4802379012107849
+        Epoch:3000 Loss:0.4962207078933716
+                Validation loss: 0.47865521907806396
+        Early stopping at epoch: 3075       loss: 0.4775244891643524
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.40352630615234
+    (Local) Top Smile: C=CC1CC=C2CCN=C(N=C=NCCC=CC=CC=C=CC=CC=CC3NCOC3C)C(P)=CC=CC3(CCCC=C3N(C)N1)CC2
+On generation 29/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.4897502362728119
+                Validation loss: 0.519199550151825
+        Epoch:1000 Loss:0.4184489846229553
+                Validation loss: 0.46517348289489746
+        Epoch:2000 Loss:0.4181225299835205
+                Validation loss: 0.4641893804073334
+        Early stopping at epoch: 2497       loss: 0.46245265007019043
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 67.65011596679688
+    (Local) Top Smile: COCNC(C=CC=CC=C=CCNc1cccc(N)c1C=CCCN=C=NC=NCC=CC=C1CCC=C2CN(CCP2)C1)C=CCCCl
+On generation 30/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6298857927322388
+                Validation loss: 0.62883460521698
+        Epoch:1000 Loss:0.5091320276260376
+                Validation loss: 0.48846960067749023
+        Epoch:2000 Loss:0.5132773518562317
+                Validation loss: 0.4868808388710022
+        Early stopping at epoch: 1809       loss: 0.486350417137146
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.24111938476562
+    (Local) Top Smile: COC1=CC=CC1C=CC=CC=C=CC=CC=CC=C=NC=NC1C=CC=CC2(C=C3BCCCC3)CC=C3C=C4C1PC3NN4C2
+On generation 31/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5757094621658325
+                Validation loss: 0.5676482915878296
+        Epoch:1000 Loss:0.4998696446418762
+                Validation loss: 0.48071199655532837
+        Epoch:2000 Loss:0.5049992799758911
+                Validation loss: 0.4801623523235321
+        Early stopping at epoch: 1742       loss: 0.4788976013660431
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.38218688964844
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CCSCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+On generation 32/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6950467824935913
+                Validation loss: 0.695080041885376
+        Epoch:1000 Loss:0.4928275942802429
+                Validation loss: 0.4825614094734192
+        Epoch:2000 Loss:0.49510902166366577
+                Validation loss: 0.4832260012626648
+        Epoch:3000 Loss:0.490262895822525
+                Validation loss: 0.48069512844085693
+        Epoch:4000 Loss:0.48877236247062683
+                Validation loss: 0.4790055751800537
+        Early stopping at epoch: 4060       loss: 0.4779074490070343
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 67.40449523925781
+    (Local) Top Smile: BC=C=CBNCC12BCCCC1CC=C(CCCC=CC=CN=C=NCCC=C=CC=CC=CC(C=CC=CC)NCOCF)C=CCCN=N2
+On generation 33/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5695949196815491
+                Validation loss: 0.566577136516571
+        Epoch:1000 Loss:0.4856977164745331
+                Validation loss: 0.4771641492843628
+        Early stopping at epoch: 1192       loss: 0.47603142261505127
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.52157592773438
+    (Local) Top Smile: C=C1CC2=C(CCN=CN=C=NCCC=CC=CC=C=CC=CC=CC3NCOC3C)N(N1)C(C=CC=CP)(C=C1BCCCC1)CC2
+On generation 34/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5190932750701904
+                Validation loss: 0.5180931091308594
+        Epoch:1000 Loss:0.4824729859828949
+                Validation loss: 0.4785620868206024
+        Early stopping at epoch: 887       loss: 0.4777178168296814
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 66.61390686035156
+    (Local) Top Smile: CC=C(C=CC=CC=C=CC=CCCCN=C=NC=NC1C=CC=CC2(C=C3CCCCB3C)CC=C3C=C4C1PC3NN4C2)NCOC
+On generation 35/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.7806845307350159
+                Validation loss: 0.7817493677139282
+        Epoch:1000 Loss:0.48874691128730774
+                Validation loss: 0.4753907322883606
+        Early stopping at epoch: 964       loss: 0.4747491478919983
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.0752182006836
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3C4=CC5=CN(CB6CCCC(C)C63)C4PC52)N1
+On generation 36/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5831789970397949
+                Validation loss: 0.5843237638473511
+        Epoch:1000 Loss:0.47874870896339417
+                Validation loss: 0.47436270117759705
+        Early stopping at epoch: 673       loss: 0.4720010459423065
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.19295501708984
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3C=C4C=C5C2PC4NN5CC3C=C2BCCCC2)N1
+On generation 37/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5675399303436279
+                Validation loss: 0.5714604258537292
+        Epoch:1000 Loss:0.47463223338127136
+                Validation loss: 0.47487103939056396
+        Early stopping at epoch: 1013       loss: 0.473977655172348
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.00486755371094
+    (Local) Top Smile: COC1=CCCNC1C=CC=CC=C=CC=CC=CCCN=C=NC=NC1C=CC=CC2(C=C3BCCCC3)CC=C3C=C4C1PC3NN4C2
+On generation 38/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6065713763237
+                Validation loss: 0.6088822484016418
+        Epoch:1000 Loss:0.47409266233444214
+                Validation loss: 0.47657060623168945
+        Early stopping at epoch: 1455       loss: 0.47266536951065063
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.62928771972656
+    (Local) Top Smile: COC1=CCNCC1=CC=CC=CC=CC=CCCN=NC=NCC=C(C)CNc1ccc2cc1C1C=CCC3(C)CB(C)N(C3)C2=C1
+On generation 39/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5572592616081238
+                Validation loss: 0.5506197810173035
+        Epoch:1000 Loss:0.500696063041687
+                Validation loss: 0.4807284474372864
+        Early stopping at epoch: 1152       loss: 0.4805619418621063
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.00755310058594
+    (Local) Top Smile: C=CC=CCC=CC=CC=C=CC=CC=CCN=C=NC=C=CC=CC=CNC1(OCC)PC2NN3C1=CC2=CCC(=CC)C3C1=CCCCB1C
+On generation 40/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5817646384239197
+                Validation loss: 0.5730985999107361
+        Early stopping at epoch: 282       loss: 0.48569297790527344
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 68.35360717773438
+    (Local) Top Smile: CBC1=CC=CC(=CC=CC=NOCC=C=CC=C=C=CCCCN=C=NC=NCC=CC=CC23BCCCCPC#CC4C2N4NCC=CC3)N1
+On generation 41/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5876662731170654
+                Validation loss: 0.5756748914718628
+        Early stopping at epoch: 445       loss: 0.48332682251930237
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 70.1945571899414
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BSCCC4)CC=C4C=C5C2PC4NN5C3)N1
+On generation 42/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5762499570846558
+                Validation loss: 0.5744380354881287
+        Epoch:1000 Loss:0.4847511351108551
+                Validation loss: 0.4761509895324707
+        Early stopping at epoch: 1442       loss: 0.4756479263305664
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.29815673828125
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=C=CC=CCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+On generation 43/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6308773756027222
+                Validation loss: 0.6301270723342896
+        Epoch:1000 Loss:0.4848237931728363
+                Validation loss: 0.47937941551208496
+        Epoch:2000 Loss:0.4851439297199249
+                Validation loss: 0.47970637679100037
+        Early stopping at epoch: 1526       loss: 0.478694885969162
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 70.97876739501953
+    (Explr) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=C4BCCCC4)CC=C4C=C5C2PC4NN5C3)N1
+    (Local) Top Fitness: 69.36693572998047
+    (Local) Top Smile: COC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=C2C=CC=CB3CCCCC4(N)CC5=CC(NN(COC35)C4)PC2)N1
+On generation 44/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.49472281336784363
+                Validation loss: 0.49085959792137146
+        Early stopping at epoch: 467       loss: 0.4814077913761139
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 71.03944396972656
+    (Local) Top Smile: NC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 45/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.783169150352478
+                Validation loss: 0.7840116620063782
+        Epoch:1000 Loss:0.4889685809612274
+                Validation loss: 0.47809767723083496
+        Early stopping at epoch: 747       loss: 0.4776325821876526
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.03694152832031
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=C=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 46/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5495971441268921
+                Validation loss: 0.5503522753715515
+        Epoch:1000 Loss:0.4875026047229767
+                Validation loss: 0.4828356206417084
+        Early stopping at epoch: 962       loss: 0.4818870723247528
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.55911254882812
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CCN=C=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 47/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.706467866897583
+                Validation loss: 0.7064338326454163
+        Epoch:1000 Loss:0.4967615604400635
+                Validation loss: 0.4900076985359192
+        Early stopping at epoch: 686       loss: 0.483302503824234
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.54678344726562
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NCC=CC23CC=CC=C2CC=C2C=C4C3PC2NN4CC=CB2CS2)NC1
+On generation 48/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6745837926864624
+                Validation loss: 0.6781095266342163
+        Epoch:1000 Loss:0.3374183177947998
+                Validation loss: 0.45637965202331543
+        Early stopping at epoch: 954       loss: 0.4555673599243164
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.19539642333984
+    (Local) Top Smile: CC1=CC=C(O)CNC1C=CC=CC=CC=CC=CCCN=C=NC=NC1=PC2NN3C=CC2=CCC(C)(C3)B2C[SH]2C=CC=C1
+On generation 49/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5891576409339905
+                Validation loss: 0.5912501215934753
+        Early stopping at epoch: 229       loss: 0.48327288031578064
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.09541320800781
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=C2CCN=C=NC=NC3C=CC=CC4(C=CB5CS5)CC=C5C=CN(C4)NC5[PH]2=C3)NC1
+On generation 50/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5961417555809021
+                Validation loss: 0.5915054082870483
+        Epoch:1000 Loss:0.5134164690971375
+                Validation loss: 0.4882858693599701
+        Early stopping at epoch: 559       loss: 0.48660752177238464
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.90393829345703
+    (Local) Top Smile: COC1=CC=CC(C=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 51/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5870497822761536
+                Validation loss: 0.5802054405212402
+        Early stopping at epoch: 480       loss: 0.4911384582519531
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.70157623291016
+    (Local) Top Smile: OC1=CC=C2C(C=CC=CC=C=CC=CC=CCCN=C=C=CC=CC=CC3(C=CB4CS4)CC=C4C=CN(C3)N3C4PC23)NC1
+On generation 52/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5617989897727966
+                Validation loss: 0.5589418411254883
+        Epoch:1000 Loss:0.49263089895248413
+                Validation loss: 0.48471754789352417
+        Early stopping at epoch: 1450       loss: 0.4830915629863739
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.57197570800781
+    (Local) Top Smile: C=CCN(CC=CC)CC12CC(=CCP1CCN=CN=C=NCCC=CC=CC=C=CC=CC=CC1C=CC=C(O)CN1)C=CC=CN2C=CB1CS1
+On generation 53/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5069974660873413
+                Validation loss: 0.5133780837059021
+        Epoch:1000 Loss:0.4815575182437897
+                Validation loss: 0.4883077144622803
+        Early stopping at epoch: 714       loss: 0.48707133531570435
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.49940490722656
+    (Local) Top Smile: N=CC(O)=CC=CCC=CC=CC=C=CC=CC=CCCN=C=NC=NC1=CC=CC#CC2CN3C4=CC=C2C3NC=[SH]BPC=C14
+On generation 54/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.684008777141571
+                Validation loss: 0.6842869520187378
+        Early stopping at epoch: 194       loss: 0.48804253339767456
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.0888671875
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CCCCc4ccccc4NCPC2CNC3)NC1
+On generation 55/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6287369132041931
+                Validation loss: 0.6310572028160095
+        Epoch:1000 Loss:0.4765523672103882
+                Validation loss: 0.4875141978263855
+        Epoch:2000 Loss:0.4772762358188629
+                Validation loss: 0.4865644574165344
+        Epoch:3000 Loss:0.47606176137924194
+                Validation loss: 0.48589593172073364
+        Early stopping at epoch: 2968       loss: 0.48498380184173584
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.1482925415039
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CN4Nc5ccccc5PC3C=CC=C24)NC1
+On generation 56/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.581202507019043
+                Validation loss: 0.5829574465751648
+        Epoch:1000 Loss:0.4868169128894806
+                Validation loss: 0.4868733286857605
+        Early stopping at epoch: 557       loss: 0.48631006479263306
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.33000946044922
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=CC=C(C2)N(Br)C3)NC1
+On generation 57/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5017123818397522
+                Validation loss: 0.5080015659332275
+        Epoch:1000 Loss:0.4886704385280609
+                Validation loss: 0.4885896146297455
+        Early stopping at epoch: 597       loss: 0.4881332814693451
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.35887145996094
+    (Local) Top Smile: OC1=NC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 58/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5177398324012756
+                Validation loss: 0.5355573892593384
+        Epoch:1000 Loss:0.4434307813644409
+                Validation loss: 0.4820455312728882
+        Epoch:2000 Loss:0.44609564542770386
+                Validation loss: 0.4823974072933197
+        Early stopping at epoch: 1802       loss: 0.4811089038848877
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.6695785522461
+    (Local) Top Smile: Nc1coc(=O)c(OC(C=CBC=S)C=CC=CCN=CN=C=NCCC=CCN=CC=CC=C=CC=CC=CC2C=CC=C(O)CN2)c1
+On generation 59/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.571178674697876
+                Validation loss: 0.5670469999313354
+        Epoch:1000 Loss:0.5135533213615417
+                Validation loss: 0.4892992079257965
+        Epoch:2000 Loss:0.5137559175491333
+                Validation loss: 0.48814719915390015
+        Epoch:3000 Loss:0.5143770575523376
+                Validation loss: 0.4863921105861664
+        Epoch:4000 Loss:0.5162529349327087
+                Validation loss: 0.4867263734340668
+        Early stopping at epoch: 3661       loss: 0.4858298897743225
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.82592010498047
+    (Local) Top Smile: COC1=CC=CC(C=CC=C=CC=CC=CCCN=C=[PH]=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 60/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.4977799654006958
+                Validation loss: 0.49635711312294006
+        Epoch:1000 Loss:0.5003660321235657
+                Validation loss: 0.48615652322769165
+        Epoch:2000 Loss:0.5014327764511108
+                Validation loss: 0.48624348640441895
+        Early stopping at epoch: 2067       loss: 0.48523345589637756
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.54788970947266
+    (Local) Top Smile: C#CC=C(O)CNCC=CC=CC=C=CC=C=CCCN=C=NCC1C=CC=CC2(C=CB3CS3)CC=C3C=C4C1PC3NN4C2
+On generation 61/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5145184397697449
+                Validation loss: 0.5002579092979431
+        Epoch:1000 Loss:0.506186306476593
+                Validation loss: 0.4875069856643677
+        Early stopping at epoch: 765       loss: 0.4867883622646332
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.01426696777344
+    (Local) Top Smile: C=CC1=CC=C(O)NCC1C=CC=C=CC=CCCN=C=NC=NC1C=CC=CC2(C=CB3CS3)CC=C3C=C4C1PC3NN4C2
+On generation 62/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5772053003311157
+                Validation loss: 0.5828469395637512
+        Epoch:1000 Loss:0.4751715064048767
+                Validation loss: 0.4857582449913025
+        Epoch:2000 Loss:0.475320965051651
+                Validation loss: 0.48404186964035034
+        Early stopping at epoch: 2207       loss: 0.48344042897224426
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.18055725097656
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2CP3CN4CC(C=CC=S)(C=CB5CS5)CC=C3C=C24)NC1
+On generation 63/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5426778197288513
+                Validation loss: 0.5466803312301636
+        Epoch:1000 Loss:0.48798877000808716
+                Validation loss: 0.4851142168045044
+        Epoch:2000 Loss:0.48848116397857666
+                Validation loss: 0.4841465353965759
+        Epoch:3000 Loss:0.4840131998062134
+                Validation loss: 0.4823766052722931
+        Epoch:4000 Loss:0.48631927371025085
+                Validation loss: 0.4833811819553375
+        Early stopping at epoch: 4073       loss: 0.48106181621551514
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.20087432861328
+    (Local) Top Smile: C=CCCC(Cn1ccc2c1C(CN=CN=C=NCCC=CC=CC=C=CC=CC=CC(=CI)NCC(O)=CC)PCC2)B1SC1BC=CC
+On generation 64/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5400905609130859
+                Validation loss: 0.5446242094039917
+        Epoch:1000 Loss:0.4878721237182617
+                Validation loss: 0.48782670497894287
+        Epoch:2000 Loss:0.4893020689487457
+                Validation loss: 0.48755139112472534
+        Epoch:3000 Loss:0.4841248095035553
+                Validation loss: 0.485893577337265
+        Early stopping at epoch: 3194       loss: 0.48475152254104614
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.26301574707031
+    (Local) Top Smile: OC1=CC=CC=CC=CC=C=CC=CC=CCCN=C=NCCC2PC3NN4CC(C=CB5CS5)(C=C=CN=NC1)CC=C3C=C24
+On generation 65/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5624718070030212
+                Validation loss: 0.5674793720245361
+        Epoch:1000 Loss:0.48834964632987976
+                Validation loss: 0.49126142263412476
+        Epoch:2000 Loss:0.48771366477012634
+                Validation loss: 0.48973920941352844
+        Early stopping at epoch: 2172       loss: 0.48926976323127747
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.8825912475586
+    (Local) Top Smile: C=CC=C=CC=CC=CCCN=C=NC=NC1C=CC=CC2NCC3C=CC4C=CC=C(O)CN4PC4Nc5ccc3c1c5CC4=S1CB1C=CC2CC
+On generation 66/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5264554619789124
+                Validation loss: 0.5340447425842285
+        Epoch:1000 Loss:0.4924989938735962
+                Validation loss: 0.49582013487815857
+        Epoch:2000 Loss:0.49121329188346863
+                Validation loss: 0.49535882472991943
+        Early stopping at epoch: 1890       loss: 0.4946105480194092
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.56892395019531
+    (Local) Top Smile: OC1=CC=CC2(C=CC=CC=C=CC=CC2=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 67/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5390565395355225
+                Validation loss: 0.5579593181610107
+        Epoch:1000 Loss:0.42805173993110657
+                Validation loss: 0.48652568459510803
+        Epoch:2000 Loss:0.41594094038009644
+                Validation loss: 0.4847828447818756
+        Early stopping at epoch: 2444       loss: 0.4829142987728119
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.30538177490234
+    (Local) Top Smile: CC1=CC=C(O)CNC1C=CC=CC=C=CCC=CCCN=C=NC=NC1=PC2NN3C=CC2=CCC(C=CB2CS2)(CC=C1)C3
+On generation 68/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.558720588684082
+                Validation loss: 0.5111702680587769
+        Epoch:1000 Loss:0.5663262605667114
+                Validation loss: 0.5001377463340759
+        Early stopping at epoch: 1176       loss: 0.4997052252292633
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.02374267578125
+    (Local) Top Smile: CCCN=C=NC=NC=CC=CC1(C=CB2CS2)CC=C2C(C=CC=C=CC=CC=CC3C=CC=C(O)CN3)=C3CPC2NN3C1
+On generation 69/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.617348849773407
+                Validation loss: 0.6111100912094116
+        Epoch:1000 Loss:0.5191121101379395
+                Validation loss: 0.48955488204956055
+        Epoch:2000 Loss:0.5202414989471436
+                Validation loss: 0.4891093075275421
+        Epoch:3000 Loss:0.5191847085952759
+                Validation loss: 0.4887189269065857
+        Early stopping at epoch: 2523       loss: 0.4884103834629059
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.24913024902344
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(N=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 70/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6228658556938171
+                Validation loss: 0.6214141845703125
+        Epoch:1000 Loss:0.49529701471328735
+                Validation loss: 0.48736876249313354
+        Early stopping at epoch: 1283       loss: 0.48610150814056396
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.41639709472656
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=C=C=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 71/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5597239136695862
+                Validation loss: 0.5588371157646179
+        Epoch:1000 Loss:0.49388521909713745
+                Validation loss: 0.48621666431427
+        Epoch:2000 Loss:0.49543440341949463
+                Validation loss: 0.4856986403465271
+        Epoch:3000 Loss:0.4938073754310608
+                Validation loss: 0.48568782210350037
+        Epoch:4000 Loss:0.4943663775920868
+                Validation loss: 0.48522067070007324
+        Early stopping at epoch: 3888       loss: 0.4845958352088928
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.10091400146484
+    (Local) Top Smile: CC1=CC=C(O)CNC1CC=CC=C=CC=CC=CCCN=C=NC=NC1C=CC=CC2(C=CB3CS3)CC3C=CN4N(C2)P3N14
+On generation 72/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6107657551765442
+                Validation loss: 0.6131066679954529
+        Epoch:1000 Loss:0.4837952256202698
+                Validation loss: 0.4852580428123474
+        Epoch:2000 Loss:0.485287606716156
+                Validation loss: 0.4865061640739441
+        Epoch:3000 Loss:0.47926604747772217
+                Validation loss: 0.48516029119491577
+        Epoch:4000 Loss:0.4813689887523651
+                Validation loss: 0.4878154397010803
+        Early stopping at epoch: 4195       loss: 0.48379239439964294
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.58719635009766
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PP4NN5C3)NC1
+On generation 73/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5306985974311829
+                Validation loss: 0.5343581438064575
+        Epoch:1000 Loss:0.4856886565685272
+                Validation loss: 0.48477694392204285
+        Epoch:2000 Loss:0.4860929250717163
+                Validation loss: 0.4845338463783264
+        Early stopping at epoch: 2188       loss: 0.4841252267360687
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.79075622558594
+    (Local) Top Smile: CC=C=[PH]1CC=CCC(C=CB2CS2)C=C(C=CCN=CN=C=NCCC=C=C=CC=CC=CC2C=CC=C(O)CN2)CN1NO
+On generation 74/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6476244330406189
+                Validation loss: 0.6487000584602356
+        Epoch:1000 Loss:0.4879520833492279
+                Validation loss: 0.4891711473464966
+        Epoch:2000 Loss:0.4898209869861603
+                Validation loss: 0.48749151825904846
+        Early stopping at epoch: 1626       loss: 0.4873400032520294
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.57640838623047
+    (Local) Top Smile: C#CC=CC=CNCC=CCC(N)OCC=CC=C=CC=CC=CCC=C=NC=NC1C=CC=CC(C=CB2CS2)CC=C2C3=C4C1PC2NN4C3
+On generation 75/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5150995254516602
+                Validation loss: 0.5222300887107849
+        Epoch:1000 Loss:0.4821196496486664
+                Validation loss: 0.4847598373889923
+        Epoch:2000 Loss:0.4839935302734375
+                Validation loss: 0.48431313037872314
+        Early stopping at epoch: 1891       loss: 0.48369312286376953
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.94237518310547
+    (Local) Top Smile: OC1=CSC=C(CC=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=S=CCC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 76/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.4821937680244446
+                Validation loss: 0.500022292137146
+        Epoch:1000 Loss:0.4781406819820404
+                Validation loss: 0.4881073534488678
+        Epoch:2000 Loss:0.4802573323249817
+                Validation loss: 0.4884311258792877
+        Early stopping at epoch: 2078       loss: 0.48734256625175476
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.75853729248047
+    (Local) Top Smile: CCNCC=Cc1ccccc1BCC=C=CC=CC=CCCN=C=NC=NC1(O)C=CC=CC2(C=CB3CS3)CC=C3C(=CN(C2)NC3P)C#CC1
+On generation 77/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5771806836128235
+                Validation loss: 0.5329659581184387
+        Epoch:1000 Loss:0.5695784091949463
+                Validation loss: 0.4966297149658203
+        Epoch:2000 Loss:0.5688923597335815
+                Validation loss: 0.4961690306663513
+        Early stopping at epoch: 2148       loss: 0.49599769711494446
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.53236389160156
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NN2CC=CCC3(Bc4ccccc4C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 78/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6466689109802246
+                Validation loss: 0.6446555256843567
+        Epoch:1000 Loss:0.5189142227172852
+                Validation loss: 0.4916864037513733
+        Early stopping at epoch: 1010       loss: 0.4904136657714844
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.92221069335938
+    (Local) Top Smile: NC#CCC(=CN=C=NCCC=CC=CC=C=CC=CC=CC1C=CC=C(O)CN1P)C1CN2CC3=CCC(C=CB4CS4)C2NC31
+On generation 79/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.517963707447052
+                Validation loss: 0.5042738914489746
+        Epoch:1000 Loss:0.506991982460022
+                Validation loss: 0.4907776117324829
+        Early stopping at epoch: 1046       loss: 0.49008941650390625
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.68370056152344
+    (Local) Top Smile: CC=C(O)CNC1C=CC=CC=C=CC=C=C1C=CCCN=C=NC=NC1C=CC=CC2(C=CB3CS3)CC=C3C=C4C1PC3NN4C2
+On generation 80/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6335235834121704
+                Validation loss: 0.6318444609642029
+        Epoch:1000 Loss:0.4953525960445404
+                Validation loss: 0.4859580099582672
+        Early stopping at epoch: 1254       loss: 0.48584356904029846
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.5040512084961
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NCCP2C=CC=CPC3(C=CB4CS4)CC=C=S4C#CC3NN4C2)NC1
+On generation 81/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5995557308197021
+                Validation loss: 0.5992054343223572
+        Epoch:1000 Loss:0.4899117350578308
+                Validation loss: 0.48724597692489624
+        Epoch:2000 Loss:0.4888770282268524
+                Validation loss: 0.48633596301078796
+        Epoch:3000 Loss:0.4892800748348236
+                Validation loss: 0.48622792959213257
+        Early stopping at epoch: 3388       loss: 0.4857323467731476
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 66.92829895019531
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NNC2C=CC=CC3C=C4CN5CC2C4NCC2SB2CC35)N(P)C1
+On generation 82/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.503818690776825
+                Validation loss: 0.5134596228599548
+        Epoch:1000 Loss:0.4838643968105316
+                Validation loss: 0.4920404851436615
+        Epoch:2000 Loss:0.4835723042488098
+                Validation loss: 0.49078884720802307
+        Epoch:3000 Loss:0.48322585225105286
+                Validation loss: 0.49109798669815063
+        Epoch:4000 Loss:0.48358944058418274
+                Validation loss: 0.4910511076450348
+        Early stopping at epoch: 3702       loss: 0.4901255965232849
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.8406982421875
+    (Local) Top Smile: OC1=CC=CC(=C=CC=C=CCCN=C=NC=NNc2ccccc2C2PC3NC4NCC(C=CB5CS5)CC3C=C42)C=CC=CCC=CC=CNC1
+On generation 83/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5123313665390015
+                Validation loss: 0.519555389881134
+        Epoch:1000 Loss:0.48141786456108093
+                Validation loss: 0.48845332860946655
+        Epoch:2000 Loss:0.4814324676990509
+                Validation loss: 0.4882217049598694
+        Epoch:3000 Loss:0.4808744788169861
+                Validation loss: 0.4876228868961334
+        Early stopping at epoch: 2536       loss: 0.4869329035282135
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.85521697998047
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=C=CC=CCCN=C=NC=NCC=CC=C2CC=C3C=C4CPC3NN4C2C=CB2CS2)NC1
+On generation 84/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5234639644622803
+                Validation loss: 0.5259729027748108
+        Epoch:1000 Loss:0.4911918044090271
+                Validation loss: 0.49235957860946655
+        Epoch:2000 Loss:0.48974117636680603
+                Validation loss: 0.4894620180130005
+        Epoch:3000 Loss:0.4890698790550232
+                Validation loss: 0.4897887408733368
+        Epoch:4000 Loss:0.49000224471092224
+                Validation loss: 0.49015840888023376
+        Epoch:5000 Loss:0.48838675022125244
+                Validation loss: 0.4887990355491638
+        Epoch:6000 Loss:0.4879313111305237
+                Validation loss: 0.48839351534843445
+        Epoch:7000 Loss:0.4925675392150879
+                Validation loss: 0.49206554889678955
+        Early stopping at epoch: 7153       loss: 0.4876056909561157
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.70313262939453
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=C=CC2=CC[SH]3CB3CCCN=C=NC=NC2CPNc2ccccc2F)NC1
+On generation 85/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5498434901237488
+                Validation loss: 0.5521481037139893
+        Epoch:1000 Loss:0.4860433340072632
+                Validation loss: 0.4855915307998657
+        Epoch:2000 Loss:0.4862518012523651
+                Validation loss: 0.4852585792541504
+        Epoch:3000 Loss:0.4865913689136505
+                Validation loss: 0.4857265055179596
+        Early stopping at epoch: 3241       loss: 0.48434555530548096
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.66620635986328
+    (Local) Top Smile: CCNC1C=CC=CC=C=Cc2ccccc2NCC=C(CCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)CC=C1
+On generation 86/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.515899658203125
+                Validation loss: 0.5230632424354553
+        Epoch:1000 Loss:0.4674721658229828
+                Validation loss: 0.4838005006313324
+        Epoch:2000 Loss:0.4629155993461609
+                Validation loss: 0.483612596988678
+        Early stopping at epoch: 2349       loss: 0.4823431968688965
+    Obtaining Predictions
+Number of batches:  7
+        Predicting Batch: 0/7
+        Predicting Batch: 1/7
+        Predicting Batch: 2/7
+        Predicting Batch: 3/7
+        Predicting Batch: 4/7
+        Predicting Batch: 5/7
+        Predicting Batch: 6/7
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.83970642089844
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CN4Nc5ccccc5PC3C=CC=C4C2)NC1
+On generation 87/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5332874655723572
+                Validation loss: 0.5100774168968201
+        Epoch:1000 Loss:0.5235376954078674
+                Validation loss: 0.4880501329898834
+        Epoch:2000 Loss:0.5241410732269287
+                Validation loss: 0.48774996399879456
+        Epoch:3000 Loss:0.5205919742584229
+                Validation loss: 0.4880687892436981
+        Early stopping at epoch: 2801       loss: 0.4867905080318451
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.36737060546875
+    (Local) Top Smile: OC1=CC=CC(C=C=CC=C=CC=CC=CCCN=C=NC=NCC=CC=C2CC=C3C=C4CPC3NN4C2C=CB2CS2)NC1
+On generation 88/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6206166744232178
+                Validation loss: 0.6201433539390564
+        Epoch:1000 Loss:0.4975273609161377
+                Validation loss: 0.4900986850261688
+        Epoch:2000 Loss:0.4970887303352356
+                Validation loss: 0.48905929923057556
+        Epoch:3000 Loss:0.4957287013530731
+                Validation loss: 0.4893312156200409
+        Epoch:4000 Loss:0.4956226348876953
+                Validation loss: 0.48929333686828613
+        Epoch:5000 Loss:0.4979425370693207
+                Validation loss: 0.4888223111629486
+        Early stopping at epoch: 4833       loss: 0.4882950484752655
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.18743133544922
+    (Local) Top Smile: CN=NCC(O)=CCCC=CC=CC=CC=CC=CCCN=C=NCCPC1NNC2C=CCN=C=CC2(C=CB2CS2)CC=C1C=CNC=CO
+On generation 89/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.507378339767456
+                Validation loss: 0.4989491403102875
+        Epoch:1000 Loss:0.4957387447357178
+                Validation loss: 0.48806247115135193
+        Epoch:2000 Loss:0.49670907855033875
+                Validation loss: 0.48749014735221863
+        Epoch:3000 Loss:0.49697935581207275
+                Validation loss: 0.4876011312007904
+        Early stopping at epoch: 2826       loss: 0.4867470860481262
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 70.13567352294922
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=CC=NC2C=CC=CC3(CBc4ccccc4B4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 90/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5018270015716553
+                Validation loss: 0.5056293606758118
+        Epoch:1000 Loss:0.48081937432289124
+                Validation loss: 0.48874273896217346
+        Epoch:2000 Loss:0.4802267849445343
+                Validation loss: 0.4886050820350647
+        Epoch:3000 Loss:0.4804469347000122
+                Validation loss: 0.48748642206192017
+        Epoch:4000 Loss:0.48117512464523315
+                Validation loss: 0.4876979887485504
+        Epoch:5000 Loss:0.4788493514060974
+                Validation loss: 0.4867129921913147
+        Epoch:6000 Loss:0.4789976477622986
+                Validation loss: 0.4864977300167084
+        Early stopping at epoch: 5841       loss: 0.4859088063240051
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.78096008300781
+    (Local) Top Smile: OC1=CC2C(C=CC=CCN=C=NC=NC3C=CC=CC4(C=CB5CS5)CC=C5C=CN(C4)N4C5PC34)=C=CC=CC=C2CNC1
+On generation 91/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5063847303390503
+                Validation loss: 0.5182573199272156
+        Epoch:1000 Loss:0.47388580441474915
+                Validation loss: 0.4916492998600006
+        Epoch:2000 Loss:0.47584468126296997
+                Validation loss: 0.4907468855381012
+        Epoch:3000 Loss:0.474182665348053
+                Validation loss: 0.49021416902542114
+        Early stopping at epoch: 3427       loss: 0.489839643239975
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.66064453125
+    (Local) Top Smile: NC12CCC34C=CC=CC(N=CN=CPCCC=CC=CC=C=CC=CC=CC5C=CC=C(O)CN5)C(CN1C3)PC2[SH]1CB1C=C4
+On generation 92/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5791856646537781
+                Validation loss: 0.5853134989738464
+        Epoch:1000 Loss:0.47085684537887573
+                Validation loss: 0.48854199051856995
+        Epoch:2000 Loss:0.47140225768089294
+                Validation loss: 0.48791033029556274
+        Epoch:3000 Loss:0.47024473547935486
+                Validation loss: 0.4876181185245514
+        Epoch:4000 Loss:0.4696720540523529
+                Validation loss: 0.4869888424873352
+        Epoch:5000 Loss:0.4700731635093689
+                Validation loss: 0.4890805184841156
+        Early stopping at epoch: 4648       loss: 0.48675647377967834
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 67.7049560546875
+    (Local) Top Smile: O=C(C=C=CCCCN=C=NC=NCCPCBc1c2cc3cc1NCC(C=CB1CS1)(C=CC=C2)CC3)OC=CF
+On generation 93/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5331526398658752
+                Validation loss: 0.5455062389373779
+        Epoch:1000 Loss:0.4638720154762268
+                Validation loss: 0.48652154207229614
+        Epoch:2000 Loss:0.46612951159477234
+                Validation loss: 0.48712921142578125
+        Epoch:3000 Loss:0.46364930272102356
+                Validation loss: 0.48621878027915955
+        Epoch:4000 Loss:0.46525368094444275
+                Validation loss: 0.4874765872955322
+        Early stopping at epoch: 4168       loss: 0.48577389121055603
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.36978149414062
+    (Local) Top Smile: CC1=CC=C(O)CNC1C=CC=CC=CC=CC=CCCC=NC=NC1C=CC=CC2(C=CB3CS3)C=PC3NN(C=CC3=CC2)S1
+On generation 94/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5147416591644287
+                Validation loss: 0.5243176817893982
+        Epoch:1000 Loss:0.47604817152023315
+                Validation loss: 0.4904012382030487
+        Epoch:2000 Loss:0.47631391882896423
+                Validation loss: 0.4898088574409485
+        Epoch:3000 Loss:0.4754871428012848
+                Validation loss: 0.4895121157169342
+        Epoch:4000 Loss:0.47788336873054504
+                Validation loss: 0.48998069763183594
+        Epoch:5000 Loss:0.4777041971683502
+                Validation loss: 0.4897051453590393
+        Early stopping at epoch: 5340       loss: 0.4884459674358368
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.89961242675781
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(P=CB4CS4)C=C4C=C5C2PC4NN5C3)NC1
+On generation 95/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5075482726097107
+                Validation loss: 0.5136958360671997
+        Epoch:1000 Loss:0.4854585528373718
+                Validation loss: 0.4905133843421936
+        Epoch:2000 Loss:0.48655715584754944
+                Validation loss: 0.4897834360599518
+        Early stopping at epoch: 2076       loss: 0.48931369185447693
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.90984344482422
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CCC3(C=CBCOS)CC=C4C=C5C2PC4NN5C3)NC1
+On generation 96/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5205045342445374
+                Validation loss: 0.5135747790336609
+        Epoch:1000 Loss:0.49790599942207336
+                Validation loss: 0.48696544766426086
+        Epoch:2000 Loss:0.49891847372055054
+                Validation loss: 0.48602885007858276
+        Epoch:3000 Loss:0.4974556863307953
+                Validation loss: 0.48739174008369446
+        Epoch:4000 Loss:0.495180606842041
+                Validation loss: 0.484483003616333
+        Epoch:5000 Loss:0.49723583459854126
+                Validation loss: 0.4845481514930725
+        Epoch:6000 Loss:0.49162301421165466
+                Validation loss: 0.48390406370162964
+        Epoch:7000 Loss:0.4952155649662018
+                Validation loss: 0.48381900787353516
+        Early stopping at epoch: 6799       loss: 0.48350703716278076
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.46586608886719
+    (Local) Top Smile: CC1=CC(O)CNCC1=CC=CC=C=CC=CC=CCCN=C=NC=NC1=PC2NN3C=CC2=CCC(C)(CB2C[SH]2C=CC=C1)C3
+On generation 97/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.6402709484100342
+                Validation loss: 0.638803243637085
+        Epoch:1000 Loss:0.513591468334198
+                Validation loss: 0.49321794509887695
+        Epoch:2000 Loss:0.5187426209449768
+                Validation loss: 0.4933397173881531
+        Early stopping at epoch: 1811       loss: 0.4924032688140869
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.03254699707031
+    (Local) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=S=CC=CCCN=NC=NC2C=CC=CC3C=CB4C[SH]4CC=C4C=C5C2PC4NN5C3)NC1
+On generation 98/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5007098317146301
+                Validation loss: 0.5081210732460022
+        Epoch:1000 Loss:0.4840637147426605
+                Validation loss: 0.4878654181957245
+        Epoch:2000 Loss:0.4854040741920471
+                Validation loss: 0.48688626289367676
+        Early stopping at epoch: 1755       loss: 0.48660001158714294
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 69.11203002929688
+    (Local) Top Smile: Fc1c2cccc1NCC(OCC=CC=C=CC=CC=CCCN=C=NC=NC1C=CC=CC3(C=CB4CS4)CC=C4C=C5C1PC4NN5C3)=CCN2
+On generation 99/100
+    Training classifier neural net...
+        Epoch:0 Loss:0.5009140968322754
+                Validation loss: 0.5123071670532227
+        Epoch:1000 Loss:0.4775555729866028
+                Validation loss: 0.49126094579696655
+        Epoch:2000 Loss:0.4761736989021301
+                Validation loss: 0.4906119704246521
+        Epoch:3000 Loss:0.47816842794418335
+                Validation loss: 0.49165281653404236
+        Epoch:4000 Loss:0.47983354330062866
+                Validation loss: 0.4926093816757202
+        Epoch:5000 Loss:0.4786358177661896
+                Validation loss: 0.49142149090766907
+        Early stopping at epoch: 4678       loss: 0.48966750502586365
+    Obtaining Predictions
+Number of batches:  6
+        Predicting Batch: 0/6
+        Predicting Batch: 1/6
+        Predicting Batch: 2/6
+        Predicting Batch: 3/6
+        Predicting Batch: 4/6
+        Predicting Batch: 5/6
+    (Explr) Top Fitness: 71.31056213378906
+    (Explr) Top Smile: OC1=CC=CC(C=CC=CC=C=CC=CC=CCCN=C=NC=NC2C=CC=CC3(C=CB4CS4)CC=C4C=C5C2PC4NN5C3)NC1
+    (Local) Top Fitness: 68.1233139038086
+    (Local) Top Smile: CC(=CC=CC=CC(C=CC=CCN=CN=C=NCCC=CC=CC=C=CC=CC=CC1C=CC=C(O)CN1)NCBc1ccccc1C#N)CC=CN
+JANUS run complete.
